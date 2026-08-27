@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lucas Stopinski — Portfólio</title>
+<meta name="description" content="Portfólio de Lucas Stopinski — inscrição na Apple Developer Academy PUCPR." />
+<link rel="preconnect" href="https://api.fontshare.com" />
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="noise" aria-hidden="true"></div>
+
+<header class="topbar">
+  <a class="brand" href="#top">LSS<span class="brand-dot">.</span></a>
+  <nav class="nav">
+    <a href="#video">Vídeo</a>
+    <a href="#portfolio">Portfólio</a>
+  </nav>
+  <button class="theme-toggle" id="themeToggle" type="button" aria-label="Alternar tema claro/escuro">
+    <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"/></svg>
+  </button>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-orb" aria-hidden="true"></div>
+    <p class="eyebrow">Apple Developer Academy PUCPR · Inscrição 2027-2028</p>
+    <h1 class="hero-title">Lucas<br>Stopinski<span class="accent-dot">.</span></h1>
+    <p class="hero-lede">Estudante de BSI na PUCPR, construindo em Swift, dados e produtos de verdade — da faculdade a projetos pessoais.</p>
+    <div class="hero-links">
+      <a class="btn btn-primary" href="#portfolio">Ver portfólio</a>
+      <a class="btn btn-ghost" href="https://github.com/LucasStop" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true"></div>
+
+  <section id="video" class="section">
+    <p class="section-kicker">01 — Vídeo</p>
+    <h2 class="section-title">Coisas que fiz e tenho orgulho</h2>
+    <div class="video-frame">
+      <!-- TODO: trocar YOUTUBE_VIDEO_ID pelo ID real depois de gravar e publicar -->
+      <div class="video-placeholder" id="videoPlaceholder">
+        <p>Vídeo em produção</p>
+        <span>Assim que gravado, o embed do YouTube entra aqui.</span>
+      </div>
+      <!--
+      <iframe
+        src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID"
+        title="Vídeo de inscrição — Apple Developer Academy PUCPR"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+      -->
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true"></div>
+
+  <section id="portfolio" class="section">
+    <p class="section-kicker">02 — Portfólio</p>
+    <h2 class="section-title">Projetos</h2>
+
+    <h3 class="group-title">Apple &amp; Swift</h3>
+    <div class="card-grid">
+      <article class="card card-featured">
+        <div class="card-media" aria-hidden="true"><span>screenshot em breve</span></div>
+        <div class="card-tag">SwiftUI · UIKit · A11y</div>
+        <h4>iOS Development</h4>
+        <p>Três apps nativos: Casa Inteligente, Galeria de Artistas Curitibanos e Vitrine do Largo da Ordem — este último com foco em acessibilidade, README completo e vídeo de demonstração.</p>
+        <a class="card-link" href="https://github.com/LucasStop/ios_development" target="_blank" rel="noopener">Ver repositório ↗</a>
+      </article>
+      <article class="card card-featured">
+        <div class="card-media" aria-hidden="true"><span>screenshot em breve</span></div>
+        <div class="card-tag">Swift · SwiftUI · Vision</div>
+        <h4>SixthSense</h4>
+        <p>App de macOS: controle por gestos, rastreamento de olhar, iPhone como Wii Remote, portais e clipboard entre dispositivos.</p>
+        <a class="card-link" href="https://github.com/LucasStop/sixthsense" target="_blank" rel="noopener">Ver repositório ↗</a>
+      </article>
+      <article class="card card-featured">
+        <div class="card-media" aria-hidden="true"><span>screenshot em breve</span></div>
+        <div class="card-tag">iOS · Swift</div>
+        <h4>Location Spoofer</h4>
+        <p>Ferramenta de simulação de localização para iOS, com interface web e servidor de ponte.</p>
+        <a class="card-link" href="https://github.com/LucasStop/location-spoofer" target="_blank" rel="noopener">Ver repositório ↗</a>
+      </article>
+    </div>
+
+    <h3 class="group-title">Faculdade — por período</h3>
+    <!-- TODO: HabitaHub front-end (1º período) fora do ar — pasta local sem conteúdo, ver com o Lucas se existe backup em outro lugar -->
+    <div class="card-grid">
+      <article class="card">
+        <div class="card-media" aria-hidden="true"><span>screenshot em breve</span></div>
+        <div class="card-tag">2º período · Web Developer</div>
+        <h4>E-commerce de Farmácia</h4>
+        <p>Sistema de e-commerce em dupla: Node/Express no back-end, HTML/CSS/JS no front — carrinho, cadastro, painel admin.</p>
+        <a class="card-link" href="https://github.com/LucasStop/web-developer-farmacia" target="_blank" rel="noopener">Ver repositório ↗</a>
+      </article>
+      <article class="card">
+        <div class="card-media" aria-hidden="true"><span>screenshot em breve</span></div>
+        <div class="card-tag">2º período · Banco de Dados</div>
+        <h4>Modelagem — Farmácia</h4>
+        <p>Modelo de dados (MER/brModelo) do mesmo projeto de farmácia, do zero ao esquema final.</p>
+        <a class="card-link" href="https://github.com/LucasStop/banco-de-dados-farmacia" target="_blank" rel="noopener">Ver repositório ↗</a>
+      </article>
+      <article class="card">
+        <div class="card-media" aria-hidden="true"><span>screenshot em breve</span></div>
+        <div class="card-tag">5º período · Resolução de Problemas</div>
+        <h4>Ranking de Jogadores</h4>
+        <p>Árvore Binária de Busca implementada do zero, com interface em Java Swing. Projeto em trio.</p>
+        <a class="card-link" href="https://github.com/LucasStop/pjbl02-ranking-jogadores" target="_blank" rel="noopener">Ver repositório ↗</a>
+      </article>
+      <article class="card">
+        <div class="card-media" aria-hidden="true"><span>screenshot em breve</span></div>
+        <div class="card-tag">5º período · Big Data</div>
+        <h4>Big Data — Hadoop &amp; Spark</h4>
+        <p>Pipeline MapReduce em Java (Hadoop) e análise em PySpark/Jupyter sobre transações comerciais internacionais.</p>
+        <a class="card-link" href="https://github.com/LucasStop/pjbl01_big_data" target="_blank" rel="noopener">Hadoop ↗</a>
+        <a class="card-link" href="https://github.com/LucasStop/pjbl02-big-data" target="_blank" rel="noopener">PySpark ↗</a>
+      </article>
+      <article class="card">
+        <div class="card-media" aria-hidden="true"><span>screenshot em breve</span></div>
+        <div class="card-tag">5º período · Ágil</div>
+        <h4>SmartStock</h4>
+        <p>Gestão de estoque em React + Vite: dashboard com KPIs, CRUD completo, movimentações em tempo real, exportação CSV.</p>
+        <a class="card-link" href="https://github.com/LucasStop/smartstock" target="_blank" rel="noopener">Ver repositório ↗</a>
+      </article>
+      <article class="card">
+        <div class="card-media" aria-hidden="true"><span>screenshot em breve</span></div>
+        <div class="card-tag">5º período · Análise de Sistemas</div>
+        <h4>MotoRev</h4>
+        <p>Especificação e design de sistema de gestão de revisões de motos — diagramas UML de classe, sequência e atividades.</p>
+        <a class="card-link" href="assets/motorev-especificacao.pdf" target="_blank" rel="noopener">Ver PDF ↗</a>
+      </article>
+    </div>
+
+    <h3 class="group-title">Outros projetos</h3>
+    <div class="card-grid">
+      <!-- TODO: confirmar contexto exato (quando/por quê) antes do envio final -->
+      <article class="card">
+        <div class="card-media" aria-hidden="true"><span>screenshot em breve</span></div>
+        <div class="card-tag">Projeto próprio</div>
+        <h4>E-commerce de Farmácia (v2)</h4>
+        <p>Segunda versão do e-commerce farmacêutico — listagem de usuários, produtos e categorias.</p>
+        <a class="card-link" href="https://github.com/LucasStop/web_farma" target="_blank" rel="noopener">Ver repositório ↗</a>
+      </article>
+      <article class="card">
+        <div class="card-media" aria-hidden="true"><span>screenshot em breve</span></div>
+        <div class="card-tag">Projeto próprio</div>
+        <h4>Banco de Dados — Farmácia (v2)</h4>
+        <p>Modelagem e CRUDs correspondentes à segunda versão do projeto de farmácia.</p>
+        <a class="card-link" href="https://github.com/LucasStop/bd_farma" target="_blank" rel="noopener">Ver repositório ↗</a>
+      </article>
+      <article class="card">
+        <div class="card-media" aria-hidden="true"><span>screenshot em breve</span></div>
+        <div class="card-tag">Projeto próprio · Laravel</div>
+        <h4>HabitaHub (back-end)</h4>
+        <p>API em Laravel para gestão de condomínios: empresas, blocos, apartamentos, usuários, visitantes e autenticação.</p>
+        <a class="card-link" href="https://github.com/LucasStop/habita-hub" target="_blank" rel="noopener">Ver repositório ↗</a>
+      </article>
+    </div>
+  </section>
+
+
+</main>
+
+<footer class="footer">
+  <p>Lucas Stopinski · <a href="mailto:">e-mail</a> · <a href="https://github.com/LucasStop" target="_blank" rel="noopener">GitHub</a></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
