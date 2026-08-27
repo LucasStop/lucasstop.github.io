@@ -2,7 +2,7 @@
   const root = document.documentElement;
   const toggle = document.getElementById("themeToggle");
   const stored = localStorage.getItem("theme");
-  if (stored) root.setAttribute("data-theme", stored);
+  root.setAttribute("data-theme", stored || "light");
 
   toggle.addEventListener("click", function () {
     const prefersDark = window.matchMedia(
