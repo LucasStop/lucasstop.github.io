@@ -349,6 +349,17 @@ a {
   margin-top: 0;
 }
 
+/* prose (declaração de IA) */
+.prose {
+  max-width: 68ch;
+}
+.prose p {
+  margin-bottom: var(--space-4);
+}
+.prose strong {
+  color: var(--text);
+}
+
 /* vídeo */
 .video-frame {
   border-radius: var(--radius-lg);
